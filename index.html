@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flare Story Website</title>
+  <!-- Import a Google font for a modern look; if the CDN fails to load the font, the site will still fall back to system fonts. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Scroll progress indicator (pixel‑ometer) -->
+  <div id="progress-bar"></div>
+  <!-- Navigation bar -->
+  <header class="nav">
+    <div class="logo">Flare&nbsp;Story</div>
+    <nav class="navigation">
+      <a href="#story">Story</a>
+      <a href="#stats">Stats</a>
+      <a href="#team">Team</a>
+    </nav>
+  </header>
+  <!-- Hero section with dramatic artwork and tagline -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="fade-element">Empowering developers worldwide</h1>
+      <p class="fade-element">
+        Your creativity meets powerful tools to build the future. Join a
+        community that celebrates innovation and storytelling.
+      </p>
+      <a href="#story" class="btn fade-element">Read our story</a>
+    </div>
+  </section>
+  <!-- Story section with text/image split -->
+  <section id="story" class="story-section section dark">
+    <div class="container split">
+      <div class="text fade-element">
+        <h2>Our Journey</h2>
+        <p>
+          At Flare, we believe stories shape experiences. Our platform
+          empowers developers to create immersive narratives that drive
+          innovation and connection.
+        </p>
+        <p>
+          From humble beginnings to a thriving community, we are proud of
+          what we've built together. Explore how our tools and resources
+          enable you to transform ideas into engaging user experiences.
+        </p>
+      </div>
+      <div class="image fade-element">
+        <img src="assets/section1.png" alt="Story visual" />
+      </div>
+    </div>
+  </section>
+  <!-- Statistics section with animated counters -->
+  <section id="stats" class="stats-section section">
+    <div class="container stats-grid">
+      <div class="stat fade-element">
+        <span class="counter" data-target="1000000">0</span>
+        <p>Users</p>
+      </div>
+      <div class="stat fade-element">
+        <span class="counter" data-target="500000">0</span>
+        <p>Downloads</p>
+      </div>
+      <div class="stat fade-element">
+        <span class="counter" data-target="250000">0</span>
+        <p>Repositories</p>
+      </div>
+    </div>
+  </section>
+  <!-- Team/Success section -->
+  <section id="team" class="team-section section dark">
+    <div class="container split reverse">
+      <div class="image fade-element">
+        <img src="assets/stats.png" alt="Team visual" />
+      </div>
+      <div class="text fade-element">
+        <h2>Our Team, Your Success</h2>
+        <p>
+          Behind every milestone is a passionate team working relentlessly to
+          bring you the best experience. Join us as we continue to push
+          boundaries and shape the future of storytelling on the web.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Footer with strong call‑to‑action -->
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Join our journey</h2>
+      <p>
+        Be part of the story. Stay up to date with our latest news and
+        updates.
+      </p>
+      <a href="#" class="btn">Get started</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
